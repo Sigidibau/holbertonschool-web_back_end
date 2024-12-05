@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Type-annotated function add that takes a float a and a float as arguments
-and returns their sum as a float
+Type-annotated function concat that takes a string str1 and a string str2
+and returns a concatenated string
 """
+
 
 def concat(str1: str, str2: str) -> str:
     """
