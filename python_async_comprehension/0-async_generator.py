@@ -4,12 +4,13 @@
 import asyncio
 import random
 
+
 async def async_generator():
     """
-    Asynchronous generator that yields a random integer between 0 and 10, 
+    Asynchronous generator that yields a random integer between 0 and 10,
     10 times with a 1-second asynchronous delay between each yield.
 
-    This function uses asyncio for asynchronous sleep and random for generating 
+    This function uses asyncio for asynchronous sleep and random for generating
     random numbers.
 
     Yields:
