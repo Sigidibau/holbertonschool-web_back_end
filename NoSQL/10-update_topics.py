@@ -5,6 +5,7 @@
 import pymongo
 from  typing import List
 
+
 def update_topics(mongo_collection, name: str, topics: List[str]):
     """
     Updates the "topics" field of all documents in a MongoDB collection
@@ -22,7 +23,7 @@ def update_topics(mongo_collection, name: str, topics: List[str]):
         This contains information such as the number
         of documents matched and modified.
     """
-    return mongo_collection.update_Many(
+    return mongo_collection.update_many(
         {"name": name},
         {"$set": {"topics": topics}}
     )
