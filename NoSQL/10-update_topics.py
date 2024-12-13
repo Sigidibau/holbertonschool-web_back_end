@@ -3,9 +3,9 @@
 
 
 import pymongo
+from  typing import List
 
-
-def update_topics(mongo_collection, name: str, topics:[str]):
+def update_topics(mongo_collection, name: str, topics: List[str]):
     """
     Updates the "topics" field of all documents in a MongoDB collection
     where the "name" field matches the given name.
