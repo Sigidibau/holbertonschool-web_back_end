@@ -1,2 +1,2 @@
 //inserting a doc in the db
-my_db.shcool.insert({"name": "Holberton School"})
+db.shcool.insert({name: "Holberton School"})
