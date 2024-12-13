@@ -1,2 +1,4 @@
 // inserting a doc in the db
-db.shcool.insert({name: "Holberton school"});
+db.shcool.insert({
+    name: "Holberton school"
+});
